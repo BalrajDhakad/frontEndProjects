@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Tilt Neon", sans-serif;
+    letter-spacing: 1px;
+}
+
+.navBar {
+    background-color: rgb(0, 0, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem 0rem;
+}
+
+.navBar .navPages a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    padding: 20px 25px;
+    font-size: 1.1rem;
+} 
+
+.navBar .navPages  {
+    gap:2rem;
+    margin: 0px 2rem;
+    margin-left: 18rem;
+} 
+
+.navBar .navPurchaseButton button {
+    border: none;
+    padding: 12px 20px;
+    border-radius: 3px;
+    font-size: 1rem;
+    color: white;
+    background: rgb(252,119,119);
+    background: linear-gradient(106deg, rgb(255, 0, 179) 0%, rgb(255, 195, 214)100%);}
+
+.navBar .billeyLogo img{
+    height: 2.7rem;
+    margin-top: .4rem;
+}
+
+.navMenuPages {
+    position: absolute;
+    background-color: black;
+    width: 50vw;
+    height: 100vh;
+    transform: translateX(100vw);
+    top: 0%;
+    display: flex;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    width: 40vw;
+    border-bottom: 2px solid rgba(255, 0, 0, 0.185);
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: column;
+    line-height: 4rem;
+    margin-top: 80px;
+    font-size: 22px;
+    overflow-y: scroll;
+    scrollbar-width:0;
+}
+
+.belleyLogoDark img {
+    height: 8vh;
+    margin: 20px;
+}
+
+.navMenuPagesHead {
+    background-color: white;
+    width: 50vw;
+    height: 14.2vh;
+    display: flex;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.spanOpen1 {
+    width: 26px;
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    display: flex;
+    border-radius: 10%;
+    position: absolute;
+    top: 5.7%;
+    right: 2%;
+}
+
+.spanOpen2{
+    width: 26px;
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    display: flex;
+    border-radius: 10%;
+    position: absolute;
+    top: 7.5%;
+    right: 2%;
+}
+
+.spanClose1 {
+    width: 26px;
+    background-color: rgb(255, 255, 255);
+    height: 3.5px;
+    display: flex;
+    border-radius: 10%;
+    position: absolute;
+    top: 6.5%;
+    right: 2%;
+    transform: rotate(45deg);
+}
+
+.spanClose2{
+    width: 26px;
+    background-color: rgb(255, 255, 255);
+    height: 3.5px;
+    display: flex;
+    border-radius: 10%;
+    position: absolute;
+    top: 6.5%;
+    right: 2%;
+    transform: rotate(135deg);
+}
+
+#mainTextH1 {
+    color: #0000d3;
+    font-size: 5rem;
+    width: 435px;
+    cursor: pointer;
+    margin: 4.5rem;
+    margin-top: 8rem;
+    margin-bottom: 0;
+}
+
+#mainTextH2 {
+    color: #0000d3;
+    font-size: 5rem;
+    width: 300px;
+    cursor: pointer;
+    margin-left: 4.5rem;
+    border-bottom: 2px rgb(240, 161, 174) dashed;
+    padding-bottom: 1rem;
+}
+
+body {
+    background-color: rgb(255, 235, 239);
+    margin: 0;
+}
+
+.mainText h5 {
+    font-size: 19px;
+    font-weight: 100;
+    margin-left: 4.5rem;
+    margin-top: 1rem;
+    color: #0000d3;
+    width: 380px;
+}
+
+.mainSideContentButton button{
+    margin-left: 4.5rem;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(106deg, rgb(255, 0, 179) 0%, rgb(255, 195, 214)100%);
+    width: 15rem;
+    height: 4rem;
+    color: white;
+    margin-top: 4rem;
+    font-size: 20px;
+}
+.mainSideContentButton a{
+    text-decoration: none;
+    color: #0000d3;
+    border-bottom: 2px solid #0000d3;
+    margin-left: 2rem;
+    font-size: 20px;
+}
+
+.mainRightSideContent {
+    width: 120vw;
+    margin-top: 8rem;
+    transform: translateX(7rem);
+}
+
+.mainBody {
+    display: flex;
+}
+
+#mainRightSideContentSecondImage {
+    width: 7.5rem;
+    position: absolute;
+    top: 39%;
+    right:28%;
+}
+
+#mainRightSideContentThirdImage {
+    width: 30rem;
+    position: absolute;
+    top: -10%;
+    right:-5%;
+    z-index: -5;
+}
+
+#mainRightSideContentFourthImage {
+    width: 150px;
+    position: absolute;
+    top: 65%;
+    right: 75%;
+}
+
+.navPages a::after {
+    content: '';
+    width:0;
+    height: 1px;
+    display: block;
+    transition: width .4s;
+    background-color: rgb(255, 255, 255);
+}
+a {
+    display: inline-block;
+}
+
+.navPages a:hover::after {
+    width: 100%;
+}
+
+
+.mainSideContentButton a:hover {
+    color: rgb(109, 109, 255);
+    transition: .3s;
+}
+
+button:hover {
+    transition: 0.5s;
+    background: linear-gradient(120deg, rgb(201, 21, 207), transparent);
+}
+
+button {
+    cursor: pointer;
+}
+
+.footerImage img {
+    width: 100vw;
+    height: 110vh;
+    position: absolute;
+    object-fit: cover;
+    z-index: -2;
+}
+
+.footerImageBlueLayer div {
+    width: 100vw;
+    background-color: #0000d3;
+    opacity: .8;
+    height: 110vh;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.footerBigBImage img {
+    width: 28rem;
+    margin-top: 1rem;
+}
+
+#footerTextH1 {
+    color: yellow;
+    font-size: 6rem;
+    position: absolute;
+    top: 180%;
+    left: 55%;
+    line-height: 5rem;
+}
+
+#footerTextH2 {
+    color: rgb(255, 255, 255);
+    font-size: 6rem;
+    position: absolute;
+    top: 207%;
+    left: 55%;
+    line-height: 6rem;
+}
+
+#footerTextH3 {
+    color: rgb(255, 255, 255);
+    font-size: 6rem;
+    position: absolute;
+    top: 207%;
+    left: 55%;
+    line-height: 6rem;
+}
