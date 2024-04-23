@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Dosis", sans-serif;
+}
+
+html {
+    background-color: rgb(238, 237, 236)
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.mainLogo img{
+    width: 5.5rem;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+
+.menuOpen div , .menuClose div{
+    height: 2px;
+    width: 40px;
+    background-color: #0000d3;
+    border-radius: 1px;
+    position: absolute;
+}
+
+
+
+.div01{
+    top: 8%;
+    right: 5%;
+}
+
+.div02{
+    top: 10%;
+    right: 5%;
+}
+
+.div03{
+    top: 9%;
+    right: 5%;
+    transform: rotate(45deg);
+    background-color: white;
+}
+
+.div04{
+    top: 9%;
+    right: 5%;
+    transform: rotate(135deg);
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menuBackgroundSquare {
+    width: 35vw;
+    height: 100vh;
+    background-color: rgb(255, 40, 76);
+    position: absolute;
+    top: 0%;
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+    right: 0%;
+    /* transform: translateX(35vw); */
+}
+
+.menuLinks {
+    /* transform: translateY(35vw); */
+}
+
+.menuClose {
+    transform: rotate(360deg);
+    display: none;
+}
+
+.menuLinksDiv01 a {
+    color: rgb(238, 237, 236) ;
+    font-weight: 500;
+    margin-top: .2rem;
+}
+
+.menuLinksDiv01, .menuLinksDiv02 {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    left: 72.5%;
+    font-size: 1.9rem;
+
+    margin-top: 6rem;
+
+}
+
+.menuLinksDiv02 a {
+    color: #eeedec ;
+    font-weight: 500;
+    margin-top: .8rem;
+}
+
+.menuLinksDiv02 {
+    position: absolute;
+    top: 55%;
+}
+
+.menuLinksDiv02 img {
+    width: 2rem;
+}
+
+pre {
+    font-size: 5rem;
+    font-weight: 500;
+    color: #00009b;
+    margin-left: 2.7rem;
+    margin-top: 3rem;
+    line-height: 5rem;
+}
+
+.mainTwoButtons {
+    position: absolute;
+    top: 93%;
+    left: 3.3%;
+}
+
+.mainTwoButtons button {
+    font-size: 1.4rem;
+    border-radius: 2.5rem;
+    padding: .4rem 1.5rem;
+    margin-left: 1.5rem;
+    font-weight: 500;
+}
+
+.button01 {
+    background-color: #00009b;
+    color:#eeedec;
+    border: 1px solid #00009b;
+}
+
+.button02 {
+    background-color: #eeedec;
+    color:#00009b;
+    border: 1px solid #00009b;
+}
+
